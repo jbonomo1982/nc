@@ -1,0 +1,14 @@
+{% extends "nc/base.html" %}
+
+{% block content %}
+<h1>MÓDULO NO CONFORMIDAD</h1>
+
+  <p>Bienvenido al <em>Módulo de No Conformidad</em>, desarrollado en Django</p>
+ 
+<h2>Tenemos los siguientes registros:</h2>
+
+  <ul>
+    <li><strong>No Conformidades creadas:</strong> {{ nc }}</li>
+  </ul>
+
+{% endblock %}
